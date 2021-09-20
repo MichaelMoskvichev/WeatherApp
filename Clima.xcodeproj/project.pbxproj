@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7496BA5926F88DCC006F518B /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 7496BA5326F88DCC006F518B /* Screenshot03.png */; };
+		7496BA5A26F88DCC006F518B /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 7496BA5426F88DCC006F518B /* Screenshot02.png */; };
+		7496BA5B26F88DCC006F518B /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7496BA5526F88DCC006F518B /* Screenshot01.png */; };
+		7496BA5C26F88DCC006F518B /* Screenshot06.png in Resources */ = {isa = PBXBuildFile; fileRef = 7496BA5626F88DCC006F518B /* Screenshot06.png */; };
+		7496BA5D26F88DCC006F518B /* Screenshot04.png in Resources */ = {isa = PBXBuildFile; fileRef = 7496BA5726F88DCC006F518B /* Screenshot04.png */; };
+		7496BA5E26F88DCC006F518B /* Screenshot05.png in Resources */ = {isa = PBXBuildFile; fileRef = 7496BA5826F88DCC006F518B /* Screenshot05.png */; };
 		74D4DD242573B13E00099B83 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D4DD232573B13E00099B83 /* WeatherModel.swift */; };
 		74F465E12572B18C00E85B4D /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F465E02572B18C00E85B4D /* WeatherManager.swift */; };
 		74F465E42573A5E700E85B4D /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F465E32573A5E700E85B4D /* WeatherData.swift */; };
@@ -20,6 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7496BA5326F88DCC006F518B /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
+		7496BA5426F88DCC006F518B /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		7496BA5526F88DCC006F518B /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		7496BA5626F88DCC006F518B /* Screenshot06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot06.png; sourceTree = "<group>"; };
+		7496BA5726F88DCC006F518B /* Screenshot04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot04.png; sourceTree = "<group>"; };
+		7496BA5826F88DCC006F518B /* Screenshot05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot05.png; sourceTree = "<group>"; };
 		74D4DD232573B13E00099B83 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		74F465E02572B18C00E85B4D /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		74F465E32573A5E700E85B4D /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
@@ -45,6 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7496BA5F26F88DD2006F518B /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				7496BA5526F88DCC006F518B /* Screenshot01.png */,
+				7496BA5426F88DCC006F518B /* Screenshot02.png */,
+				7496BA5326F88DCC006F518B /* Screenshot03.png */,
+				7496BA5726F88DCC006F518B /* Screenshot04.png */,
+				7496BA5826F88DCC006F518B /* Screenshot05.png */,
+				7496BA5626F88DCC006F518B /* Screenshot06.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		74F465DF2572B17400E85B4D /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				ADAA27CD231BC87F00365194 /* README.md */,
+				7496BA5F26F88DD2006F518B /* Screenshots */,
 				ADAA27AF231BBFAF00365194 /* Clima */,
 				ADAA27AE231BBFAF00365194 /* Products */,
 			);
@@ -164,7 +190,13 @@
 				ADAA27CE231BC87F00365194 /* README.md in Resources */,
 				ADAA27BD231BBFB300365194 /* LaunchScreen.storyboard in Resources */,
 				ADAA27BA231BBFB300365194 /* Assets.xcassets in Resources */,
+				7496BA5B26F88DCC006F518B /* Screenshot01.png in Resources */,
+				7496BA5926F88DCC006F518B /* Screenshot03.png in Resources */,
+				7496BA5D26F88DCC006F518B /* Screenshot04.png in Resources */,
 				ADAA27B8231BBFAF00365194 /* Main.storyboard in Resources */,
+				7496BA5A26F88DCC006F518B /* Screenshot02.png in Resources */,
+				7496BA5E26F88DCC006F518B /* Screenshot05.png in Resources */,
+				7496BA5C26F88DCC006F518B /* Screenshot06.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
